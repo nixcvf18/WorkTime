@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tasklist">
+
+        <!--成型-->
+
+        <!--Z-->
+        <item>Z01</item>
+        <item>Z02</item>
+        <item>Z03</item>
+        <item>Z04</item>
+        <item>Z05</item>
+        <item>Z06</item>
+        <item>Z07</item>
+        <item>Z08</item>
+        <item>Z09</item>
+        <item>Z10</item>
+        <item>Z11</item>
+        <item>Z12</item>
+        <item>Z13</item>
+        <item>Z14</item>
+
+        <!--S-->
+        <item>S01</item>
+        <item>S02</item>
+        <item>S03</item>
+        <item>S04</item>
+        <item>S05</item>
+        <item>S06</item>
+        <item>S07</item>
+        <item>S08</item>
+        <item>S10</item>
+        <item>S19</item>
+        <item>S20</item>
+        <item>S21</item>
+        <item>S22</item>
+        <item>S26</item>
+        <item>S35</item>
+        <item>S36</item>
+        <item>S37</item>
+        <item>S41</item>
+        <item>S42</item>
+
+<!--组立-->
+
+        <!--A-->
+        <item>A001</item>
+        <item>A002</item>
+        <item>A003</item>
+        <item>A004</item>
+        <item>A005</item>
+        <item>A006</item>
+        <item>A007</item>
+        <item>A008</item>
+        <item>A009</item>
+        <item>A010</item>
+        <item>A011</item>
+        <item>A012</item>
+        <item>A013</item>
+        <item>A014</item>
+        <item>A015</item>
+        <item>A016</item>
+        <item>A017</item>
+
+        <!--B-->
+        <item>B001</item>
+        <item>B002</item>
+        <item>B003</item>
+        <item>B004</item>
+        <item>B005</item>
+        <item>B006</item>
+        <item>B007</item>
+        <item>B008</item>
+        <item>B009</item>
+        <item>B010</item>
+        <item>B011</item>
+        <item>B012</item>
+        <item>B013</item>
+        <item>B014</item>
+        <item>B015</item>
+        <item>B016</item>
+        <item>B017</item>
+        <item>B018</item>
+        <item>B019</item>
+        <item>B020</item>
+        <item>B021</item>
+        <item>B022</item>
+
+
+
+
+    </string-array>
+
+
+
+
+</resources>

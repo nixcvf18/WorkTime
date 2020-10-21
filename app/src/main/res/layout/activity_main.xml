@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<!--顶部背景-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/mainfirstback0"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="@string/main_textView_zhanghu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp"
+        android:textColor="@color/colorText"
+        />
+    <TextView
+        android:id="@+id/tv_userId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/colorText"
+        android:gravity="center"
+
+
+        />
+
+
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="@string/main_textView_xingming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp"
+        android:textColor="@color/colorText"
+        />
+    <TextView
+        android:id="@+id/tv_userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/colorText"
+        android:gravity="center"
+
+
+        />
+
+</LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <!--中部功能区-->
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2.5"
+    android:rowCount="3"
+    android:columnCount="2"
+    android:layout_margin="10dp"
+
+    >
+
+
+    <Button
+        android:id="@+id/btn_main_bg_ok"
+        android:layout_gravity="fill"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="5dp"
+        android:text="@string/main_button_bgok"
+        android:textColor="@color/colorText"
+        android:background="@drawable/main_button_background"
+        />
+
+    <Button
+        android:id="@+id/btn_main_bg_ng"
+        android:layout_gravity="fill"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="5dp"
+        android:text="@string/main_button_bgng"
+        android:textColor="@color/colorText"
+        android:background="@drawable/main_button_background"/>
+
+    <Button
+        android:id="@+id/btn_main_bg_undo"
+        android:layout_gravity="fill"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="5dp"
+        android:text="@string/main_button_bgundo"
+        android:textColor="@color/colorText"
+        android:background="@drawable/main_button_background"
+        />
+
+    <Button
+        android:id="@+id/btn_main_sc_giveout"
+        android:layout_gravity="fill"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="5dp"
+        android:text="@string/main_button_scgiveout"
+        android:textColor="@color/colorText"
+        android:background="@drawable/main_button_background"
+        />
+
+    <Button
+        android:id="@+id/btn_main_gs_print"
+        android:layout_gravity="fill"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="5dp"
+        android:text="@string/main_button_gsprint"
+        android:textColor="@color/colorText"
+        android:background="@drawable/main_button_background"
+        />
+
+    <Button
+        android:id="@+id/btn_main_close"
+        android:layout_gravity="fill"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="5dp"
+        android:text="@string/main_button_close"
+        android:textColor="@color/colorText"
+        android:background="@drawable/main_button_background"
+        />
+
+
+
+
+
+
+
+
+</GridLayout>
+
+<!--占位view-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"/>
+
+</LinearLayout>

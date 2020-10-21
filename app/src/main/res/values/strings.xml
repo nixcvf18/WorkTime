@@ -1,0 +1,77 @@
+<resources>
+
+
+    <!--登录界面信息-->
+    <string name="app_name">生产管理职能终端</string>
+    <string name="btn_login">登录</string>
+    <string name="userid_login">用户ID</string>
+    <string name="password_login">密码</string>
+    <string name="login_error_message_0">数据库服务器连接超时</string>
+    <string name="login_error_message_1">用户名为空,或用户名长度长度大于10</string>
+    <string name="login_error_message_2">密码为空</string>
+    <string name="login_error_message_3">账号或密码错误</string>
+    <string name="login_error_message_4">用户被停用</string>
+    <!--登录界面信息-->
+
+
+    <!--主界面控件信息-->
+    <!--按钮信息-->
+    <string name="main_button_bgok">报工OK</string>
+    <string name="main_button_bgng">报工NG</string>
+    <string name="main_button_bgundo">报工撤销</string>
+    <string name="main_button_scgiveout">生产发料</string>
+    <string name="main_button_gsprint">工时录入</string>
+    <string name="main_button_close">关闭</string>
+    <!--文本信息 -->
+    <string name="main_textView_zhanghu">账户：</string>
+    <string name="main_textView_xingming">姓名：</string>
+
+    <string name="main_tip_message">功能未添加</string>
+    <!--主界面控件信息-->
+
+
+    <!--历史工时界面控件信息-->
+    <!--文本信息-->
+    <string name="history_textView_riqi">日期：</string>
+    <!--按钮信息-->
+    <string name="history_button_xinzeng">新增</string>
+
+    <!--列表条目-->
+    <string name="history_item_recyclerview_date">日    期：</string>
+    <string name="history_item_recyclerview_order_number">订单号：</string>
+    <string name="history_item_recyclerview_task_code">任务码：</string>
+    <string name="history_item_recyclerview_work_hours">工 时(H)：</string>
+    <string name="history_item_recyclerview_work_minutes">工 时(M)：</string>
+    <!--历史工时界面控件信息-->
+
+
+    <!--通用的部分-->
+    <string name="base_activity_title_back">返回</string>
+    <string name="base_activity_title_content">标题</string>
+
+    <string name="history_title_content">工时显示</string>
+    <string name="print_title_content">工时录入</string>
+    <string name="revise_title_content">工时修改</string>
+    <string name="history_empty_message">当前日期无工时记录</string>
+
+
+    <!--工时录入界面-->
+
+    <string name="print_textview_workID">工 号:</string>
+    <string name="print_textview_date">日 期:</string>
+    <string name="print_textview_orderNumber">订单号:</string>
+    <string name="print_textview_taskCode">任务码:</string>
+    <string name="print_textview_hour">工时(小时):</string>
+    <string name="print_textview_minute">工时(分钟):</string>
+    <string name="print_button_save">保存</string>
+
+    <string name="print_textview_starSign">*</string>
+
+
+    <string name="default_account">000001</string>
+    <string name="default_name">东尼大木</string>
+
+
+    <string name="data_save_status_success">数据保存成功</string>
+    <string name="data_amend_status_success">数据修改成功</string>
+</resources>
